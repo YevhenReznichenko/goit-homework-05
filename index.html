@@ -483,7 +483,7 @@
             <label class="footer-form-label" for="user-email-foote">
               <input
                 class="footer-form-input"
-                name="user_email_footer"
+                name="user-email-footer"
                 type="email"
                 placeholder="E-mail"
                 id="user-email-foote"
@@ -491,12 +491,8 @@
             </label>
             <button class="footer-form-button" type="submit">
               Subscribe
-              <svg class="footer-form-svg">
-                <use
-                  href="./images/icons.svg#icon-frame"
-                  width="24"
-                  height="24"
-                ></use>
+              <svg class="footer-form-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
               </svg>
             </button>
           </form>
@@ -504,20 +500,19 @@
       </div>
     </footer>
     <!-- modal -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
-        <div class="container-button">
-          <button class="modal-closse-btn" type="button">
-            <svg
-              class="modal-closse-btn-icon"
-              width="8"
-              height="8"
-              aria-label="modal close button"
-            >
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-        </div>
+        <button class="modal-closse-btn" type="button">
+          <svg
+            class="modal-closse-btn-icon"
+            width="8"
+            height="8"
+            aria-label="modal close button"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="form-wrapper">
