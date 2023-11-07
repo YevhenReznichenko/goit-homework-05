@@ -635,10 +635,11 @@ align-items: center;
 .modal-closse-btn:hover .modal-closse-btn-icon{
     fill: #FFFFFF;
     background-color:#404BBF;
+    border: none;
 }
 .modal-closse-btn:focus .modal-closse-btn-icon{
     fill:#FFFFFF;
-    
+    border: none;
 }
 .modal-text{
     color:  #2E2F42;
@@ -659,8 +660,8 @@ align-items: center;
     color:#8E8F99;
         font-size: 12px;
         font-weight: 400;
-        line-height: 1.17px;
-        letter-spacing: 0.04px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
         margin-bottom: 4px;
 }
 .form-input{
@@ -679,7 +680,7 @@ outline-color:transparent;
 outline-offset: 6px;
     }
 .form-wrapper{
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .form-input-wrapper{
     position: relative;
