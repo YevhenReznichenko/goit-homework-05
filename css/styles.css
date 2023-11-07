@@ -641,6 +641,12 @@ align-items: center;
     fill:#FFFFFF;
     border: none;
 }
+.modal-closse-btn:focus{
+    border: none;
+}
+.modal-closse-btn:hover{
+    border: none;
+}
 .modal-text{
     color:  #2E2F42;
         text-align: center;
@@ -680,7 +686,7 @@ outline-color:transparent;
 outline-offset: 6px;
     }
 .form-wrapper{
-    margin-bottom: 8px;
+    margin-bottom:16px;
 }
 .form-input-wrapper{
     position: relative;
